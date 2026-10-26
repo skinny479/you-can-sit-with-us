@@ -13,6 +13,7 @@ Home, About, Programs, Get Involved, Donate, Contact, 404.
 - [ ] Mission statement: About page wording is a draft
 - [ ] Founder bio in her own words
 - [ ] Confirm partner names (Tyson Foods, Sam's Club, Office Depot) may be listed
+- [ ] EIN for the Donate page (donors and employer-match programs ask for it)
 - [ ] Donate link: currently the Summer of Support Zeffy form; swap for a general form if one exists
 
 ## Publish
