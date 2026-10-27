@@ -276,3 +276,11 @@ footer.site .muted { color: rgba(255,255,255,.6); }
 .card .btn { margin-top: auto; }
 img.seal-sym { width: min(320px, 80vw); height: auto; margin-bottom: 1.4rem; }
 img.seal-foot { display: block; width: 150px; height: auto; border-radius: 50%; }
+
+/* Light footer */
+footer.site { background: var(--blush); color: var(--muted); border-top: 1px solid var(--line); }
+footer.site a { color: var(--navy); }
+footer.site .muted { color: var(--muted); }
+.footer-col h2 { color: var(--coral-strong); }
+.legal { border-top-color: var(--line); color: var(--muted); }
+img.seal-foot { border-radius: 0; mix-blend-mode: normal; }
