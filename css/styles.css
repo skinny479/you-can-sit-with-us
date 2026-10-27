@@ -3,7 +3,8 @@
 :root {
   --navy: #2D372B;
   --navy-strong: #1E261D;
-  --coral: #8A6F47;
+  --coral: #9C7A45;
+  --seal-accent: #9C7A45;
   --coral-strong: #6F5836;
   --gold: #C8B58A;
   --sky: #A9B8A0;
@@ -255,7 +256,7 @@ footer.site .muted { color: rgba(255,255,255,.6); }
 .stats strong { display: block; font-family: var(--serif); font-size: 2.6rem; line-height: 1; color: var(--navy); }
 .stats span { font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
 .brand { gap: .75rem; }
-.bench { width: 2.6rem; height: auto; color: var(--navy); flex: none; }
+.bench { width: 2.6rem; height: auto; color: var(--coral); flex: none; }
 .brand-footer .bench { color: var(--cream); width: 3rem; }
 @media (max-width: 400px) { .bench { width: 2.1rem; } .wm-top { font-size: 1rem; } }
 .symbol { text-align: center; padding-block: clamp(3.5rem, 8vw, 6rem); }
@@ -268,3 +269,5 @@ footer.site .muted { color: rgba(255,255,255,.6); }
 .seal-sym { width: min(300px, 80vw); height: auto; margin-bottom: 1.6rem; }
 .brand-seal { display: inline-block; color: var(--cream); margin-bottom: 1rem; }
 .seal-foot { width: 132px; height: auto; color: var(--cream); }
+
+.seal-foot { --seal-accent: #C8A86E; }
