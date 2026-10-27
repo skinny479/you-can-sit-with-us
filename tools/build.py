@@ -357,7 +357,7 @@ f"""  <section class="page-hero">
     <div class="wrap narrow">
       <div class="donate-panel">
         <h2>Give securely through GoFundMe</h2>
-        <p>Donations are processed securely through GoFundMe&rsquo;s charity platform. You can give once or set up a monthly gift.</p>
+        <p>Donations are processed securely through GoFundMe&rsquo;s charity platform.</p>
         {DONATE_BTN}
         <p class="muted small">You Can Sit with Us Foundation is an Arkansas nonprofit corporation and 501(c)(3) public charity, EIN 42-2597781. Donations are tax-deductible to the extent allowed by law.</p>
       </div>
