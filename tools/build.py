@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate the You Can Sit With Us Foundation static site (shared header/footer)."""
-import os, sys
+import os, sys, time
+V = time.strftime("%Y%m%d%H%M")
 
 OUT = sys.argv[1]
 
@@ -49,7 +50,7 @@ def page(fname, title, desc, body):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css?v={V}">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -73,7 +74,7 @@ def page(fname, title, desc, body):
 <footer class="site">
   <div class="wrap footer-grid">
     <div>
-      <a class="brand-seal" href="index.html" aria-label="You Can Sit With Us Foundation home"><img class="seal-foot" src="images/seal-transparent.png" alt="You Can Sit With Us Foundation seal" width="1200" height="1200"></a>
+      <a class="brand-seal" href="index.html" aria-label="You Can Sit With Us Foundation home"><img class="seal-foot" src="images/seal-transparent.png?v={V}" alt="You Can Sit With Us Foundation seal" width="1200" height="1200"></a>
       <p class="muted">Because everyone deserves a seat at the table.</p>
     </div>
     <div class="footer-col">
@@ -91,7 +92,7 @@ def page(fname, title, desc, body):
     <p>&copy; <span id="year">2026</span> You Can Sit with Us Foundation, an Arkansas nonprofit corporation and 501(c)(3) public charity, EIN 42-2597781. Donations are tax-deductible to the extent allowed by law.</p>
   </div>
 </footer>
-<script src="js/main.js"></script>
+<script src="js/main.js?v={V}"></script>
 </body>
 </html>
 """
@@ -123,7 +124,7 @@ f"""  <section class="hero">
 
   <section class="symbol">
     <div class="wrap narrow symbol-inner">
-      <img class="seal-sym" src="images/seal.png" alt="You Can Sit With Us Foundation seal with a park bench" width="1200" height="1200">
+      <img class="seal-sym" src="images/seal.png?v={V}" alt="You Can Sit With Us Foundation seal with a park bench" width="1200" height="1200">
       <p class="eyebrow">Our symbol</p>
       <h2>There&rsquo;s always room on the bench.</h2>
       <!-- TODO: founder to confirm or rewrite the meaning of the bench -->
