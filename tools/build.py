@@ -7,7 +7,7 @@ OUT = sys.argv[1]
 
 # ---- Site facts. Placeholders are in [brackets] until the founder supplies them. ----
 EMAIL = "ach@sitwithusfoundation.com"
-DONATE_URL = "https://www.zeffy.com/en-US/donation-form/summer-support-project"
+DONATE_URL = "https://www.gofundme.com/charity/you-can-sit-with-us-foundation/donate"
 SOCIALS = [("Instagram", "https://www.instagram.com/youcansitwithusfoundation/")]
 
 NAV = [("index.html", "Home"), ("about.html", "About"), ("programs.html", "Programs"),
@@ -100,7 +100,7 @@ def page(fname, title, desc, body):
         f.write(html)
 
 
-DONATE_BTN = f'<a class="btn btn-coral" href="{DONATE_URL}" target="_blank" rel="noopener">Donate on Zeffy</a>'
+DONATE_BTN = f'<a class="btn btn-coral" href="{DONATE_URL}" target="_blank" rel="noopener">Donate on GoFundMe</a>'
 
 # ---------------- Home ----------------
 page("index.html", "Home",
@@ -356,8 +356,8 @@ f"""  <section class="page-hero">
   <section>
     <div class="wrap narrow">
       <div class="donate-panel">
-        <h2>Give securely through Zeffy</h2>
-        <p>Zeffy is a free fundraising platform, so 100% of your donation reaches the foundation.</p>
+        <h2>Give securely through GoFundMe</h2>
+        <p>Donations are processed securely through GoFundMe&rsquo;s charity platform. You can give once or set up a monthly gift.</p>
         {DONATE_BTN}
         <p class="muted small">You Can Sit with Us Foundation is an Arkansas nonprofit corporation and 501(c)(3) public charity, EIN 42-2597781. Donations are tax-deductible to the extent allowed by law.</p>
       </div>

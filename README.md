@@ -12,7 +12,7 @@ Home, About, Programs, Get Involved, Donate, Contact, 404.
 - [ ] Summer of Support event photo (none yet; Home uses a community gallery)
 - [ ] Mission statement: About page wording is a draft
 - [ ] Confirm partner names (Tyson Foods, Sam's Club, Office Depot) may be listed
-- [ ] Donate link: currently the Summer of Support Zeffy form; swap for a general form if one exists
+- [x] Donate link: GoFundMe charity page
 
 ## Domain switch
 - [ ] When sitwithusfoundation.com is live, change og:image in build to the new domain
