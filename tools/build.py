@@ -19,12 +19,12 @@ def SEAL(uid, cls="seal"):
     return f"""<svg class="{cls}" viewBox="0 0 600 600" role="img" aria-label="You Can Sit With Us Foundation seal">
 <defs><path id="st-{uid}" d="M 88 300 A 212 212 0 0 1 512 300"/><path id="sb-{uid}" d="M 62 300 A 238 238 0 0 0 538 300"/></defs>
 <circle cx="300" cy="300" r="262" fill="none" stroke="currentColor" stroke-width="3"/>
-<circle cx="300" cy="300" r="250" fill="none" stroke="var(--seal-accent)" stroke-width="1.5"/>
-<circle cx="300" cy="300" r="196" fill="none" stroke="var(--seal-accent)" stroke-width="1.5"/>
+<circle cx="300" cy="300" r="250" fill="none" style="stroke:var(--seal-accent)" stroke-width="1.5"/>
+<circle cx="300" cy="300" r="196" fill="none" style="stroke:var(--seal-accent)" stroke-width="1.5"/>
 <text fill="currentColor" font-size="34" font-weight="600" letter-spacing="7"><textPath href="#st-{uid}" startOffset="50%" text-anchor="middle">YOU CAN SIT WITH US</textPath></text>
 <text fill="currentColor" font-size="22" font-weight="500" letter-spacing="14"><textPath href="#sb-{uid}" startOffset="50%" text-anchor="middle">FOUNDATION</textPath></text>
-<circle cx="66" cy="300" r="5" fill="var(--seal-accent)"/><circle cx="534" cy="300" r="5" fill="var(--seal-accent)"/>
-<g transform="translate(191 217) scale(3.4)" fill="none" stroke="var(--seal-accent)" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v22M50 4v22M14 6h36M14 12h36M14 18h36M8 26h48M5 31h54M10 31v14M54 31v14M14 31v9M50 31v9"/></g>
+<circle cx="66" cy="300" r="5" style="fill:var(--seal-accent)"/><circle cx="534" cy="300" r="5" style="fill:var(--seal-accent)"/>
+<g transform="translate(191 217) scale(3.4)" fill="none" style="stroke:var(--seal-accent)" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v22M50 4v22M14 6h36M14 12h36M14 18h36M8 26h48M5 31h54M10 31v14M54 31v14M14 31v9M50 31v9"/></g>
 </svg>"""
 
 
