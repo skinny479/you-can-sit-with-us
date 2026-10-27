@@ -7,7 +7,6 @@ Home, About, Programs, Get Involved, Donate, Contact, 404.
 
 ## Before launch (founder review)
 - [ ] Confirm ach@ inbox should be public (or set up info@sitwithusfoundation.com)
-- [ ] Instagram profile URL (currently `#`; no Facebook page)
 - [x] Founder photo (About page)
 - [ ] Summer of Support event photo (none yet; Home uses a community gallery)
 - [ ] Mission statement: About page wording is a draft
