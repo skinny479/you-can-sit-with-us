@@ -271,3 +271,6 @@ footer.site .muted { color: rgba(255,255,255,.6); }
 .seal-foot { width: 132px; height: auto; color: var(--cream); }
 
 .seal-foot { --seal-accent: #C8A86E; }
+.card .btn { align-self: flex-start; margin-top: .4rem; }
+.contact-grid a { overflow-wrap: anywhere; }
+.card .btn { margin-top: auto; }

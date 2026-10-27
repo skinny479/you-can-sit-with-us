@@ -375,17 +375,37 @@ f"""  <section class="page-hero">
 # ---------------- Contact ----------------
 socials_list = "".join(f'<li><a href="{u}" target="_blank" rel="noopener">@youcansitwithusfoundation</a> on {n}</li>' for n, u in SOCIALS)
 page("contact.html", "Contact",
-     "Contact the You Can Sit With Us Foundation in Springdale, Arkansas.",
+     "Contact the You Can Sit With Us Foundation to coordinate an event, volunteer, or get more information.",
 f"""  <section class="page-hero">
     <div class="wrap narrow">
       <p class="eyebrow">Contact</p>
-      <h1>We'd love to hear from you.</h1>
-      <p class="lead">Questions, ideas, volunteering, or partnerships: reach out anytime.</p>
+      <h1>Let&rsquo;s save a seat together.</h1>
+      <p class="lead">Reach out to coordinate an event, volunteer, or get more information.</p>
     </div>
   </section>
 
   <section>
-    <div class="wrap narrow contact-grid">
+    <div class="wrap cards">
+      <article class="card">
+        <h3>Coordinate an event</h3>
+        <p>Bring You Can Sit With Us to your school, business, church, or community group, or partner with us on an event.</p>
+        <a class="btn btn-coral" href="mailto:{EMAIL}?subject=Event%20inquiry">Plan an event</a>
+      </article>
+      <article class="card">
+        <h3>Volunteer</h3>
+        <p>Pack backpacks, serve meals, and welcome families at our events.</p>
+        <a class="btn btn-coral" href="mailto:{EMAIL}?subject=Volunteer">Volunteer with us</a>
+      </article>
+      <article class="card">
+        <h3>Get more information</h3>
+        <p>Questions about our programs, donations, or how to get involved? We&rsquo;re happy to help.</p>
+        <a class="btn btn-coral" href="mailto:{EMAIL}?subject=Information%20request">Ask a question</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-tight band">
+    <div class="wrap contact-grid">
       <div class="card">
         <h3>Email</h3>
         <p><a href="mailto:{EMAIL}">{EMAIL}</a></p>
