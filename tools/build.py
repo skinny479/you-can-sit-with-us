@@ -73,7 +73,7 @@ def page(fname, title, desc, body):
 <footer class="site">
   <div class="wrap footer-grid">
     <div>
-      <a class="brand-seal" href="index.html" aria-label="You Can Sit With Us Foundation home">{SEAL("foot", "seal seal-foot", "#C8A86E")}</a>
+      <a class="brand-seal" href="index.html" aria-label="You Can Sit With Us Foundation home"><img class="seal-foot" src="images/seal.png" alt="You Can Sit With Us Foundation seal" width="1200" height="1200"></a>
       <p class="muted">Because everyone deserves a seat at the table.</p>
     </div>
     <div class="footer-col">
@@ -123,7 +123,7 @@ f"""  <section class="hero">
 
   <section class="symbol">
     <div class="wrap narrow symbol-inner">
-      {SEAL("sym", "seal seal-sym")}
+      <img class="seal-sym" src="images/seal.png" alt="You Can Sit With Us Foundation seal with a park bench" width="1200" height="1200">
       <p class="eyebrow">Our symbol</p>
       <h2>There&rsquo;s always room on the bench.</h2>
       <!-- TODO: founder to confirm or rewrite the meaning of the bench -->

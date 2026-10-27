@@ -274,3 +274,5 @@ footer.site .muted { color: rgba(255,255,255,.6); }
 .card .btn { align-self: flex-start; margin-top: .4rem; }
 .contact-grid a { overflow-wrap: anywhere; }
 .card .btn { margin-top: auto; }
+img.seal-sym { width: min(320px, 80vw); height: auto; margin-bottom: 1.4rem; }
+img.seal-foot { display: block; width: 150px; height: auto; border-radius: 50%; }
