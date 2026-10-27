@@ -264,3 +264,7 @@ footer.site .muted { color: rgba(255,255,255,.6); }
 .bench-lg { width: 120px; height: auto; color: var(--navy); margin-bottom: 1.4rem; }
 .bench-cta { width: 64px; height: auto; color: var(--gold); margin: 0 auto 1rem; }
 .page-hero .bench-lg { width: 90px; }
+.seal { display: block; font-family: var(--serif); color: var(--navy); }
+.seal-sym { width: min(300px, 80vw); height: auto; margin-bottom: 1.6rem; }
+.brand-seal { display: inline-block; color: var(--cream); margin-bottom: 1rem; }
+.seal-foot { width: 132px; height: auto; color: var(--cream); }
