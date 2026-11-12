@@ -250,7 +250,7 @@ page("about.html", "About",
 
 # ---------------- Programs ----------------
 page("programs.html", "Programs",
-     "The Summer of Support Project and other You Can Sit With Us Foundation programs serving children in Northwest Arkansas.",
+     "Explore Season of Support and Summer of Support, helping students in Springdale and Northwest Arkansas feel seen, valued, and included.",
 f"""  <section class="page-hero">
     <div class="wrap narrow">
       <p class="eyebrow">Programs</p>
@@ -261,6 +261,23 @@ f"""  <section class="page-hero">
 
   <section>
     <div class="wrap">
+      <article class="program" id="season-of-support" aria-labelledby="season-of-support-title">
+        <div class="program-meta">
+          <span class="tag">Holiday outreach</span>
+          <p><strong>Season of Support</strong><br>Springdale, Arkansas</p>
+        </div>
+        <div>
+          <h2 id="season-of-support-title">Season of Support</h2>
+          <p>Help make the holidays brighter for 50 Springdale junior high and high school students. Season of Support brings our community together to provide gifts and remind students that they are seen, valued, and included.</p>
+          <div class="stats">
+            <div><strong>50</strong><span>students we aim to support</span></div>
+          </div>
+          <p>Your donation helps purchase holiday gifts for local students. Together, we can show them that their community is here for them.</p>
+          <div class="actions"><a class="btn btn-coral" href="{DONATE_URL}" target="_blank" rel="noopener">Donate toward student gifts</a></div>
+          <p class="muted small">Give through our existing GoFundMe charity donation page.</p>
+        </div>
+      </article>
+
       <article class="program">
         <div class="program-meta">
           <span class="tag">Flagship event</span>
@@ -281,17 +298,6 @@ f"""  <section class="page-hero">
           </div>
           <p class="muted">With support from Tyson Foods, Sam&rsquo;s Club, Office Depot, and other partners.</p>
           <div class="actions">{DONATE_BTN}</div>
-        </div>
-      </article>
-
-      <article class="program program-soon">
-        <div class="program-meta">
-          <span class="tag tag-soft">Coming soon</span>
-        </div>
-        <div>
-          <h2>What's next</h2>
-          <p>We're planning our next chapter. Follow us or reach out to hear about upcoming events and ways to help.</p>
-          <p><a class="text-link" href="contact.html">Stay in touch &rarr;</a></p>
         </div>
       </article>
     </div>
